@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "fizgo", "runtimeExecutable": "python3", "runtimeArgs": ["server.py", "3017"], "port": 3017 }
+  ]
+}

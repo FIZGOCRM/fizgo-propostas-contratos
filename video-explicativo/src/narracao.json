@@ -1,0 +1,122 @@
+{
+  "abertura": {
+    "arquivo": "voz/abertura.wav",
+    "duracao": 7.37,
+    "linhas": [
+      {
+        "texto": "Por que algumas empresas não param de vender na internet?",
+        "inicio": 0.1,
+        "duracao": 3.05
+      },
+      {
+        "texto": "Não é sorte. É método.",
+        "inicio": 4.01,
+        "duracao": 2.47
+      }
+    ]
+  },
+  "quem": {
+    "arquivo": "voz/quem.wav",
+    "duracao": 8.09,
+    "linhas": [
+      {
+        "texto": "A Fizgo é uma assessoria de crescimento e vendas.",
+        "inicio": 0.1,
+        "duracao": 2.64
+      },
+      {
+        "texto": "A gente cuida do caminho inteiro: do primeiro clique até a venda.",
+        "inicio": 3.6,
+        "duracao": 3.62
+      }
+    ]
+  },
+  "pilares": {
+    "arquivo": "voz/pilares.wav",
+    "duracao": 19.27,
+    "linhas": [
+      {
+        "texto": "São quatro pilares.",
+        "inicio": 0.1,
+        "duracao": 1.35
+      },
+      {
+        "texto": "Aquisição: anúncios que trazem as pessoas certas.",
+        "inicio": 2.31,
+        "duracao": 3.26
+      },
+      {
+        "texto": "Conteúdo: vídeos e artes que dão vontade de comprar.",
+        "inicio": 6.44,
+        "duracao": 3.28
+      },
+      {
+        "texto": "Conversão: conversas no WhatsApp que viram clientes.",
+        "inicio": 10.57,
+        "duracao": 3.56
+      },
+      {
+        "texto": "E análise: a gente mede tudo e ajusta toda semana.",
+        "inicio": 15.0,
+        "duracao": 3.4
+      }
+    ]
+  },
+  "processo": {
+    "arquivo": "voz/processo.wav",
+    "duracao": 13.44,
+    "linhas": [
+      {
+        "texto": "E como começa?",
+        "inicio": 0.1,
+        "duracao": 1.04
+      },
+      {
+        "texto": "Você aprova e assina pelo celular.",
+        "inicio": 2.0,
+        "duracao": 2.1
+      },
+      {
+        "texto": "A gente cria o seu grupo no WhatsApp,",
+        "inicio": 4.96,
+        "duracao": 2.04
+      },
+      {
+        "texto": "faz o onboarding para entender suas metas,",
+        "inicio": 7.29,
+        "duracao": 2.28
+      },
+      {
+        "texto": "monta o planejamento,",
+        "inicio": 9.8,
+        "duracao": 1.19
+      },
+      {
+        "texto": "e coloca tudo no ar.",
+        "inicio": 11.31,
+        "duracao": 1.26
+      }
+    ]
+  },
+  "fechamento": {
+    "arquivo": "voz/fechamento.wav",
+    "duracao": 10.82,
+    "linhas": [
+      {
+        "texto": "Tudo o que entra no seu plano está na proposta.",
+        "inicio": 0.1,
+        "duracao": 2.4
+      },
+      {
+        "texto": "Ficou com dúvida? Chama a gente no WhatsApp.",
+        "inicio": 3.36,
+        "duracao": 3.51
+      },
+      {
+        "texto": "Fizgo. Bora crescer?",
+        "inicio": 7.74,
+        "duracao": 2.21
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+/* =========================================================================
+   Documentos Fizgo (proposta e contrato) — páginas A4 794 x 1123 px
+   ========================================================================= */
+.fz-doc {
+  --teal: #233C42; --teal2: #2C4B52; --teal3: #1A2E33; --green: #00F07A; --green-d: #00B85C;
+  --ink: #233C42; --muted: #5E7378; --line: #DCE4E5; --soft: #F2F6F6; --red: #E5484D; --yellow: #FFF27A;
+}
+.fz-doc .page {
+  width: 794px; height: 1123px; position: relative; overflow: hidden; background: #fff; color: var(--ink);
+  font-family: 'Nunito', sans-serif; font-size: 13px; line-height: 1.5; box-sizing: border-box;
+  display: flex; flex-direction: column; -webkit-print-color-adjust: exact; print-color-adjust: exact;
+}
+.fz-doc .page * { box-sizing: border-box; }
+.fz-doc .ico { width: 1em; height: 1em; flex: none; }
+.fz-doc strong, .fz-doc b { font-weight: 800; }
+
+/* Cabeçalho / rodapé */
+.fz-doc .pg-head { display: flex; justify-content: space-between; align-items: center; padding: 34px 64px 0; }
+.fz-doc .pg-head-num { font: 600 10px/1 'Poppins', sans-serif; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.fz-doc .page-body { flex: 1; min-height: 0; overflow: hidden; padding: 30px 64px 10px; display: flex; flex-direction: column; }
+.fz-doc .pg-foot { height: 70px; display: flex; align-items: center; justify-content: center; position: relative; }
+.fz-doc .pg-num { position: absolute; right: 64px; font: 600 10px 'Poppins'; color: #9AA9AC; }
+
+/* As páginas da proposta ficam em css/proposta.css */
+
+/* ---------- Contrato ---------- */
+.fz-doc .contract { font-family: 'Nunito', sans-serif; font-size: 12.2px; line-height: 1.55; color: #1F2D30; }
+.fz-doc .ct-head { display: flex; justify-content: space-between; align-items: center; padding: 30px 70px 14px; border-bottom: 3px solid var(--green); margin: 0 70px; padding-left: 0; padding-right: 0; }
+.fz-doc .ct-head div { text-align: right; display: flex; flex-direction: column; }
+.fz-doc .ct-head b { font: 700 12px 'Poppins'; color: var(--teal); }
+.fz-doc .ct-head span { font-size: 9.5px; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
+.fz-doc .contract .page-body { padding: 22px 70px 6px; display: block; }
+.fz-doc .ct-foot { margin: 0 70px; padding: 10px 0 26px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; font-size: 9px; color: #7D9195; }
+.fz-doc .ct-foot .rub { color: #A3B2B5; display: flex; align-items: flex-end; gap: 10px; }
+.fz-doc .ct-foot .rub i { display: inline-block; width: 64px; height: 12px; border-bottom: 1px solid #C9D3D5; }
+.fz-doc .ct-title { text-align: center; margin: 4px 0 16px; }
+.fz-doc .ct-title h1 { font: 700 17px/1.3 'Poppins'; color: var(--teal); margin: 0 0 4px; }
+.fz-doc .ct-title span { font-size: 10.5px; color: var(--muted); }
+.fz-doc .contract .blk p { margin: 0 0 9px; text-align: justify; }
+.fz-doc .contract .blk ul { margin: 0 0 9px; padding-left: 26px; }
+.fz-doc .contract .blk li { margin: 0 0 2px; }
+.fz-doc .contract .blk li::marker { color: var(--teal); }
+.fz-doc .contract .blk h4 { font-size: 12.2px; margin: 0 0 8px; }
+.fz-doc .cl-h { font: 700 12.5px 'Poppins'; color: var(--teal); margin: 16px 0 8px; display: flex; align-items: center; gap: 8px; }
+.fz-doc .cl-h::before { content: ''; width: 4px; height: 14px; border-radius: 2px; background: var(--green); }
+.fz-doc .ct-table { width: 100%; border-collapse: collapse; margin: 6px 0 14px; font-size: 11.5px; }
+.fz-doc .ct-table th { background: var(--teal); color: #fff; text-align: left; padding: 8px 10px; font: 600 11px 'Poppins'; }
+.fz-doc .ct-table th:first-child { border-top-left-radius: 8px; }
+.fz-doc .ct-table th:last-child { border-top-right-radius: 8px; border-right: none; }
+.fz-doc .ct-table td { border: 1px solid var(--line); padding: 9px 10px; vertical-align: top; }
+.fz-doc .ct-table td:first-child { width: 24%; }
+.fz-doc .ct-table td:last-child { width: 28%; }
+.fz-doc .ct-table ul { margin: 0; padding-left: 16px; }
+.fz-doc .ct-table small { color: var(--muted); }
+.fz-doc .ct-bonus { margin-top: 6px; font-size: 10.5px; color: #0E8A4A; font-weight: 700; }
+.fz-doc .ct-end { margin-top: 22px; }
+.fz-doc .ct-local { text-align: center; margin: 0 0 54px !important; }
+.fz-doc .ct-sigs { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; }
+.fz-doc .ct-sigs div { display: flex; flex-direction: column; font-size: 11px; }
+.fz-doc .ct-sigs i { border-top: 1.2px solid #1F2D30; margin-bottom: 6px; }
+.fz-doc .ct-sigs b { font-weight: 800; }
+.fz-doc .ct-sigs span { color: #4A5E62; }
+.fz-doc .ct-sigs em { font-style: normal; font: 600 9px 'Poppins'; letter-spacing: .14em; color: var(--green-d); margin-top: 3px; }
+.fz-doc .ct-wit { margin-top: 30px; }
+.fz-doc .ct-wit .ct-sigs { margin-top: 44px; }
+
+/* ---------- Impressão ---------- */
+@media print {
+  @page { size: A4; margin: 0; }
+  html, body { background: #fff !important; }
+  body > *:not(#print-root) { display: none !important; }
+  #print-root { display: block !important; }
+  #print-root .page { page-break-after: always; break-after: page; box-shadow: none !important; margin: 0 !important; zoom: 1 !important; }
+}
+#print-root { display: none; }

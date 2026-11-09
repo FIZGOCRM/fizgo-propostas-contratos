@@ -1,0 +1,31 @@
+# Dependências do Node (Remotion / Vídeo Explicativo)
+node_modules/
+video-explicativo/node_modules/
+
+# Ambientes virtuais Python
+.venv/
+venv/
+video-explicativo/.venv/
+
+# Builds e vídeos renderizados
+dist/
+out/
+video-explicativo/dist/
+video-explicativo/out/
+
+# Variáveis de ambiente com dados sensíveis
+.env
+
+# Sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs e caches
+*.log
+__pycache__/
+*.py[cod]

@@ -1,0 +1,12 @@
+{
+  "name": "fizgo-propostas-contratos",
+  "version": "2.0.0",
+  "description": "Fizgo Digital — propostas comerciais e contratos em um único fluxo",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 server.py 3005",
+    "dev": "python3 server.py 3005",
+    "start:3000": "python3 server.py 3000"
+  },
+  "private": true
+}
